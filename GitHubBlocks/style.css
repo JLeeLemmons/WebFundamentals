@@ -1,0 +1,47 @@
+body{
+    background-color:darksalmon
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:coral;
+    margin: 0px; 
+}
+
+.main{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+}
+
+.main > img{ 
+    width: 300px; 
+    color: aquamarine;
+    padding: 10px;
+}
+
+.main1{
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px; 
+}
+
+.main1 > img{
+    width: 300px; 
+    padding: 10px; 
+}
+
+.main2{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+
+}
+ .main2 > img{
+     width: 300px;
+     padding: 10px;
+ }

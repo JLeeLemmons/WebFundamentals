@@ -1,0 +1,35 @@
+.row{
+    width: 950px; 
+    display: flex;   
+}
+
+.col{
+    background-color: aquamarine;
+    width: 200px; 
+    height: 50px; 
+    margin: 10px; 
+    flex: 1;
+}
+
+.col1{
+    background-color: aquamarine;
+    width: 200px; 
+    height: 50px; 
+    margin: 10px; 
+    flex: 1; 
+}
+
+.col2{
+    background-color: aquamarine;
+    width: 200px; 
+    height: 50px; 
+    margin: 10px; 
+    flex: 2; 
+}
+.col3{
+    background-color: aquamarine;
+    width: 200px; 
+    height: 50px; 
+    margin: 10px; 
+    flex: 3; 
+}

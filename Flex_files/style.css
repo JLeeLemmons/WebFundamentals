@@ -1,0 +1,30 @@
+.wrapper{
+    background-color: cyan;
+    display: flex;
+    
+    
+    
+}
+.image img{
+    width: 75px;
+    height: 75px;
+    padding: 10px; 
+    
+}
+.wrapper h1{
+    display: flex;
+    margin: 25px; 
+    align-items: flex-start;
+
+}
+.container ul{
+    display: flex;
+    
+    
+}
+.container li{
+    display: flex;
+    text-decoration: none;
+    
+}
+    

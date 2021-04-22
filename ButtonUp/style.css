@@ -1,0 +1,30 @@
+button{
+    display: block;
+    margin: 40px; 
+}
+
+.width{
+   border-radius: 25px;
+   width: 10%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: cadetblue;
+   border-color:cadetblue;
+   background-color: whitesmoke;
+}
+
+.radius{
+    border-radius: 50%;
+    padding: 6px 12px;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+.largerWidth{
+    width: 130px;
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+}
