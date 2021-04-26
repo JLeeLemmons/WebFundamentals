@@ -1,0 +1,231 @@
+body{
+    width: 1200px;
+    height: auto; 
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: black;
+    color: azure;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    margin-left: 50px; 
+    padding-left: 25px;
+}
+.list{
+    display: flex;
+}
+ul > li{
+    list-style-type: none;
+    padding: 15px; 
+}
+.button{
+    height: 25px; 
+    padding: 5px; 
+    margin-right: 95px;  
+    background-color: rgb(28, 187, 187);
+    color: whitesmoke;
+}
+#container{
+    display: inline-block;
+    margin: 10px 50px; 
+}
+.wrapper{
+    display: inline-block;
+    margin: 10px; 
+    vertical-align: top;
+    
+}
+.wrapper2{
+    display: inline-block;
+    margin: 10px; 
+    vertical-align: top;
+
+}
+.main{
+    background-color: blanchedalmond;
+    width:500px; 
+    height: 500px; 
+    margin: 0px 10px 10px 10px; 
+    border: 3px solid rgb(162, 159, 159);
+    border-top: none;
+    
+}
+.main > h1{
+    margin: 0px; 
+    padding-top: 75px;
+    padding-left: 50px; 
+}
+.main > img{
+    padding-left: 50px;
+}
+.main > h4{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.main > p{
+    padding-left: 50px; 
+}
+.main > h5{
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+.main2{
+    background-color: blanchedalmond;
+    width:500px; 
+    height: 200px; 
+    margin: 0px 10px 10px 10px; 
+    border: 3px solid rgb(162, 159, 159);
+    border-top: none;
+    
+}
+.main2 > h1{
+    display: inline-block;
+    margin: 0px; 
+    padding-left: 25px;
+    padding-top: 5px; 
+    font-size: 25px; 
+}
+.main2 > p{
+    padding-left: 25px;
+}
+.main3{
+    background-color: blanchedalmond;
+    width:500px; 
+    height: 200px; 
+    margin: 0px 10px 10px 10px; 
+    border: 3px solid rgb(162, 159, 159);
+    border-top: none;
+    
+}
+.Picture{
+    border: 2px solid grey;
+    margin-left: 5px; 
+    border-radius: 50%;
+}
+.main3 > img{
+    height: 40px; 
+    width: 40px; 
+    
+}
+.main3 > p{
+    display: inline-block;
+    font-size: 30px; 
+    padding-left: 40px; 
+    padding-right: 200px; 
+    
+
+}
+.main4{
+    background-color: blanchedalmond;
+    width:500px; 
+    height: 450px; 
+    margin: 0px 10px 10px 10px; 
+    border: 3px solid rgb(162, 159, 159);
+    border-top: none;
+    
+}
+.main4 > img{
+    height: 40px; 
+    width: 40px; 
+    margin-left: 20px; 
+}
+.main4 > p{
+    display: inline-block;
+    font-size: 30px; 
+    padding-left: 200px; 
+    padding-right: 120px; 
+}
+.banner{
+    background-color:aqua;
+    width: 500px;
+    height: 125px; 
+    margin: 40px 10px 0px 10px;
+}
+.banner > img{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 60px; 
+}
+.banner2{
+    background-color: grey;
+    width: 500px;
+    height: 50px; 
+    margin: 40px 10px 0px 10px;
+}
+.banner2 > h2{
+    padding-left: 50px;
+    padding-top: 10px; 
+}
+.banner3{
+    background-color:grey;
+    width: 500px;
+    height: 75px; 
+    margin: 40px 10px 0px 10px;
+    padding-bottom:25px; 
+}
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px 15px 10px;
+    background: rgb(68, 65, 65);
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin-left: 25px; 
+    
+}
+.banner3 > h2{
+    display: inline-block;
+}
+.banner4{
+    background-color:grey;
+    width: 500px;
+    height: 125px; 
+    margin: 40px 10px 0px 10px;
+}
+.banner4 > h2{
+    display: inline-block;
+}
+.circle1{
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    background: rgb(68, 65, 65);
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin-bottom: 70px;
+    margin-left: 25px; 
+    padding-right: 25px; 
+}
+hr{
+    border: 2px solid grey;
+}
+h5{
+    font-size: 20px; 
+    font: bold;
+    color: blue;
+    text-decoration: underline;
+    margin-top: 15px; 
+    margin-left: 10px; 
+}
+  
+    
+
+
+
+
