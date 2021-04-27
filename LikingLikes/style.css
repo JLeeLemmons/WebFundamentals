@@ -1,0 +1,41 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftBox{
+    height: 150px; 
+    width: 500px; 
+    border: 5px solid black;
+   
+}
+
+#button{
+    background-color: rgb(202, 149, 33); 
+    font-weight: 400;
+    box-shadow: 5px 5px black;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.smallRightBox{
+    height: 30px; 
+    width: 75px; 
+    background-color: red;
+    align-self: center;
+    margin-bottom: -10px; 
+    
+}
+
+.rightBox{
+    background-color: rgb(202, 149, 33); 
+    height: 200px; 
+    width: 300px; 
+
+}
