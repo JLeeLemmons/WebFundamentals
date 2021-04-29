@@ -8,24 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class = nav>
+        <h1>Network</h1>
+    </div>
+    <h1 class="title">Your Feed</h1>
     <div class="container">
-        <div class="leftBox">
-            <h3>Some User</h3>
-            <p>3 like(s)</p>
-            <button id="button" type="button">Like</button>
-            <p>This is some filler text, it can say anything we like</p>
+        <div class = "leftBox">
+           <img src="imgs/avatarPenguin.png" alt="Penguin Avatar">
+           <h3 class="blue">Add an avatar</h3>
+           <h2>James Doe</h2>
         </div>
-        <div class="wrapper">
-            <div class="smallRightBox"></div>
+        <div class="wrappper">
             <div class="rightBox">
-                <p>Each time we click the "Like" button it should increase the number of likes by "1"</p>
+                <div class="flexing">
+                    <h3>Neil M</h3>
+                    <p id="amount1">9 like(s)</p>
+                    <button id="button" onclick="like1()" type="button">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <span>link</span></p>
+                </div>
+            <div class="rightBox">
+                <div class="flexing">
+                    <h3>Nichole K</h3>
+                    <p id="amount2">12 like(s)</p>
+                    <button id="button" onclick="like2()" type="button">Like</button>
+                </div>
+                <p>Just finished my <span>next comic,</span> check it out.</p>
             </div>
+            <div class="rightBox">
+                <div class="flexing">
+                    <h3>Jim R</h3>
+                    <p id="amount3">9 like(s)</p>
+                    <button id="button" onclick="like3()" type="button">Like</button>
+                </div>
+                <p>I can't stop listening to the <span>new album.</span> Who else is liking it?</p>
         </div>
     </div>
-    
-
-
 <script src="script.js"></script>
 </body>
 </html>

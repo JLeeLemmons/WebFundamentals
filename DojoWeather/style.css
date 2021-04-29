@@ -1,0 +1,89 @@
+.nav{
+    width: 100%; 
+    height: 75px; 
+    background-color: rgb(136, 136, 209);
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    margin-left: 60px; 
+    color: aliceblue;
+}
+.navRight{
+    display: flex;
+    margin-right: 60px; 
+    align-items: center;
+}
+.navRight h3{
+    padding-left: 50px; 
+    color: aliceblue;
+}
+.container{
+    width: auto;
+    height: 1080px; 
+    margin: 25px 50px; 
+}
+.title{
+    height: 100px; 
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#temperature{
+    height: 50%; 
+    
+}
+.rightSide{
+    display: flex;
+    align-items: center;
+    
+}
+.rightSide h5{
+    padding-right: 20px; 
+}
+.weatherBlocks{
+    height: 500px;
+    display: flex;
+    padding: 5px; 
+}
+.Today{
+    width: 100%; 
+    padding: 25px; 
+    background-color: rgb(145, 142, 142);
+    margin-left: 5px; 
+    
+}
+.Today h2{
+    padding-left: 75px; 
+}
+.Today img{
+    border-radius: 50%;
+}
+.Today p{
+    padding-left: 30%; 
+}
+.red{
+    color: red;
+}
+span{
+    color: blue;
+    padding: 5px; 
+}
+
+#cookie{
+    height: 100px; 
+    width: 92%; 
+    background-color: rgb(173, 167, 167); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 650px; 
+
+}
+.cookie button{
+    height: 30%; 
+    padding: 0px 30px; 
+}

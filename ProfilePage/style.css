@@ -52,7 +52,6 @@ ul > li{
     height: 500px; 
     margin: 0px 10px 10px 10px; 
     border: 3px solid rgb(162, 159, 159);
-    border-top: none;
     
 }
 .main > h1{
@@ -83,7 +82,7 @@ ul > li{
     height: 200px; 
     margin: 0px 10px 10px 10px; 
     border: 3px solid rgb(162, 159, 159);
-    border-top: none;
+    
     
 }
 .main2 > h1{
@@ -102,7 +101,7 @@ ul > li{
     height: 200px; 
     margin: 0px 10px 10px 10px; 
     border: 3px solid rgb(162, 159, 159);
-    border-top: none;
+    
     
 }
 .Picture{
@@ -129,7 +128,7 @@ ul > li{
     height: 450px; 
     margin: 0px 10px 10px 10px; 
     border: 3px solid rgb(162, 159, 159);
-    border-top: none;
+   
     
 }
 .main4 > img{

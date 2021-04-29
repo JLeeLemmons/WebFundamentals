@@ -1,41 +1,85 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.container{
-    display: flex;
-    justify-content: space-evenly;
+.nav{
+    width: 70%; 
+    height: 75px; 
+    background-color: black; 
+    color: whitesmoke;
+    margin: auto; 
+
+}
+.nav h1{
+    padding: 20px; 
+
 }
 
+.title{
+    text-align: center;
+
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   margin: 25px 200px; 
+
+}
 .leftBox{
+    height: 300px; 
+    width: 200px; 
+    align-items: center;
+    border: 5px solid black;
+    
+
+}
+.leftBox img{
+    width: 100px; 
+    height: 100px; 
+    margin-left: 50px; 
+    margin-top: 25px; 
+    
+}
+.blue{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 50px; 
+
+}
+h2{
+    margin-left: 50px; 
+    
+}
+.rightBox{
     height: 150px; 
     width: 500px; 
     border: 5px solid black;
-   
+    padding: 5px; 
+    margin-bottom: 25px; 
+    
 }
+span{
+    color: blue;
+    text-decoration: underline;
 
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px; 
+
+}
 #button{
     background-color: rgb(202, 149, 33); 
     font-weight: 400;
     box-shadow: 5px 5px black;
+    height: 25px; 
+    width: 50px;  
+    margin-right: 10px; 
+
 }
 .wrapper{
     display: flex;
     flex-direction: column;
-}
-
-
-.smallRightBox{
-    height: 30px; 
-    width: 75px; 
-    background-color: red;
-    align-self: center;
-    margin-bottom: -10px; 
-    
-}
-
-.rightBox{
-    background-color: rgb(202, 149, 33); 
-    height: 200px; 
-    width: 300px; 
 
 }
